@@ -1,0 +1,44 @@
+﻿body {
+    width: 100%;
+}
+
+table {
+    background-color: black;
+    color: white;
+    
+    border: solid 1px white;
+    width: 100%;
+}
+
+th ,td {
+    text-align: center;
+    border: solid 1px white;
+    padding: 5px;
+}
+
+td {
+    text-align: right;
+}
+
+    td > .stockId {
+        text-align: left !important;
+    }
+
+.reColor {
+    color: #FFFF00;
+}
+.ceColor {
+    color: #C71585;
+}
+.flColor {
+    color: #00FFFF;
+}
+.redColor{
+    color:red;
+}
+.noColor{
+    color:white;
+}
+.greenColor {
+    color: #00FF00;
+}

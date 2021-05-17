@@ -1,0 +1,216 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    
+
+</head>
+<body>
+
+    <div class="container">
+        <form  method="post" id="editForm">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-md-3">
+                        <div class="Ma form-group">
+                            <label class="control-label">Mã</label>
+                            <input name="id" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="GiaTC form-group">
+                            <label class="control-label">Gia tham chiếu</label>
+                            <input name="giaTC" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="GiaTran form-group">
+                            <label class="control-label">Giá Trần</label>
+                            <input name="giaTran" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="GiaSan form-group">
+                            <label class="control-label">Giá Sàn</label>
+                            <input name="giaSan" class="form-control" />
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">Mở cửa</label>
+                            <input name="moCua" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">Cao nhất</label>
+                            <input name="caoNhat" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">Thấp nhất</label>
+                            <input name="thapNhat" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">NNmua</label>
+                            <input name="nNmua" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">NNban</label>
+                            <input name="nNban" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">Room còn lại</label>
+                            <input name="room" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row c_header">
+                        <h3>Mua</h3>
+                    </div>
+                    <div class="row c_body">
+                        <div class="col-md-2">
+                            <div class="MuaG3 form-group">
+                                <label class="control-label">G3</label>
+                                <input name="muaG3" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="MuaKL3 form-group">
+                                <label class="control-label">KL3</label>
+                                <input name="muaKL3" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="MuaG2 form-group">
+                                <label class="control-label">G2</label>
+                                <input name="muaG2" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="MuaKL2 form-group">
+                                <label class="control-label">KL2</label>
+                                <input name="muaKL2" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="MuaG1 form-group">
+                                <label class="control-label">G1</label>
+                                <input name="muaG1" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="MuaKL1 form-group">
+                                <label class="control-label">KL1</label>
+                                <input name="muaKL1" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="row c_header">
+                        <h3>Bán</h3>
+                    </div>
+                    <div class="row c_body">
+                        <div class="col-md-2">
+                            <div class="BanG3 form-group">
+                                <label class="control-label">G3</label>
+                                <input name="banG3" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="BanKL3 form-group">
+                                <label class="control-label">KL3</label>
+                                <input name="banKL3" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="BanG2 form-group">
+                                <label class="control-label">G2</label>
+                                <input name="banG2" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="BanKL2 form-group">
+                                <label class="control-label">KL2</label>
+                                <input name="banKL2" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="BanG1 form-group">
+                                <label class="control-label">G1</label>
+                                <input name="banG1" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="BanKL1 form-group">
+                                <label class="control-label">KL1</label>
+                                <input name="banKL1" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="margin:auto">
+                    <div class="row c_header ">
+                        <H3>Khớp lệnh</H3>
+                    </div>
+                    <div class="row c_body">
+                        <div class="col-md-4">
+                            <div class="Gia form-group">
+                                <label class="control-label">Giá</label>
+                                <input name="gia" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="KhoiLuong form-group">
+                                <label class="control-label">Khối lượng</label>
+                                <input name="khoiLuong" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="TyLe form-group">
+                                <label class="control-label">+/-</label>
+                                <input name="tyLe" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button>Save</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="~/js/addStock/createFormAdd.js" type="module"></script>
+</body>
+</html>
